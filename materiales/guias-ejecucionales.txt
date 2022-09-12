@@ -1,0 +1,71 @@
+=== COLORES ===
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+
+
+=== TIPOGRAFÍAS ===
+Familia: 'Roboto'
+Versiones: 300, 400, 700
+
+
+=== HEADER - TEXTOS ===
+Buscar productos, marcas y más
+Comprá en cuotas y sin tarjeta de crédito
+
+
+=== NAVBAR - TEXTOS ===
+Ofertas
+Tiendas Oficiales
+Vender
+Ayuda
+---
+Creá tu cuenta
+Ingresá
+Mis compras
+
+
+
+    <!-- Formulario-->
+    <!-- <form action="/crear-producto" method="post" class="create-form">
+
+
+
+            <div class="control-formulario">
+            <label>Nombre del producto:</label>
+            <input type="text" name="nombre" class="control">
+        </div>
+        <div class="control-formulario">
+            <label>Precio:</label>
+            <input type="text" name="precio" placeholder="9.999" class="control">
+        </div>
+        <div class="control-formulario">
+            <label>Categoría:</label>
+            <select name="categoria" class="control">
+                <option value="hogar">Hogar</option>
+                <option value="electro">Electro</option>
+                <option value="indumentaria">Indumentaria</option>
+            </select>
+        </div>
+        <div class="control-formulario" class="control">
+            <label>Ciudad:</label>
+            <select name="categoria">
+                <option value="baires">Buenos Aires</option>
+                <option value="ros">Rosario</option>
+                <option value="mdz">Mendoza</option>
+            </select>
+        </div>
+        <div class="control-formulario">
+            <label>Descripción:</label>
+            <textarea name="descripcion" class="control"></textarea>
+        </div>
+        <div class="control-formulario">
+            <label>Está en oferta:</label>
+            <input type="radio" name="enOferta">
+        </div>
+        <button type="reset" class="boton-formulario">Borrar</button>
+        <button type="submit" class="boton-formulario">Guardar</button>
+        </form> -->

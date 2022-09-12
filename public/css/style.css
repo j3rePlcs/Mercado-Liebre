@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    background-color: #ebebeb;
+}
+
+
+p {
+    font-size: 13px;
+}
+
+
+.main-header {
+    background-color: #EAC926;
+    padding: 20px;
+}
+
+
+.hamburguer-button {
+    background-color: #1259c3;
+    color: #ffffff;
+    display: block;
+    max-width: 50px;
+    padding: 10px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+
+.logo-search a {
+    display: flex;
+    justify-content:center;
+    align-content: center;
+}
+
+.logo-search {
+    padding: 30px;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    width:100%;
+}
+.logo {
+    width: 50%;
+
+}
+
+.search {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search button {
+    margin-left: 5px;
+}
+
+.copy-header {
+    font-weight: 400;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.main {
+    align-self: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 5%;
+}
+
+.main-nav-bar {
+    display: none;
+}
+
+.main-nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav-bar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+.create-form {
+    padding: 20px 15px;
+    margin-top: 200px;
+}
+
+.control-formulario {
+    margin-bottom: 15px;
+}
+
+.control-formulario label {
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+
+.control {
+    width: 100%;
+    padding: 8px;
+}
+
+.boton-formulario {
+    background-color: #39b54a;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.article {
+    display: inline-block;
+}
+
+.product-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.banner img{
+    width: 100vw;
+}
+
+.titular {
+    font-size: 24px;
+    margin: 0;
+    padding: 30px 25px 0 25px;
+}
+
+.product {
+    padding: 15px 0;
+    margin: 30px 15px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+ .imagen-truck img {
+    width: 100%;
+    text-align: center;
+}
+ .imagen-truck {
+    border-bottom: 2px solid #ebebeb;
+    position: relative;
+ }
+
+.imagen-truck i {
+    display: block;
+    color: #39b54a;
+    background-color: #FFFFFF;
+    padding: 7px;
+    border: 1px solid #39b54a;
+    border-radius: 100%;
+    position: absolute;
+    right: 20px;
+    bottom: -17px;
+}
+
+.product div {
+    padding: 10px 0px;
+}
+.product p{
+    display: none;
+    font-size: 18px;
+}
+
+
+.precio {
+    font-size: 18px;
+}
+
+.descuento {
+    font-size: 16px;
+    color: #39b54a;
+
+}
+
+.footer {
+    padding-top: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.footer-datos i {
+    display: flex;
+    color: #1259c3;
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.footer-datos h3 {
+    text-align: center;
+}
+
+.footer-datos p {
+    text-align: center;
+    padding: 2px 50px 0 50px;
+}
+
+.copyright p {
+    display: flex;
+    padding: 45px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FORM LOGIN */
+
+.formulario{
+    margin: 40px 0px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(224, 224, 224) ;
+}
+.formulario div{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input {
+    padding: 10px;
+    margin: 15px 0px;
+    border-radius: 7px;
+    border: none;
+}
+
+.categoria {
+    font-size: 20px;
+}
+
+.form-categoria {
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+}
+
+#enviar {
+    color: #FFFFFF;
+    background-color: #1259c3;
+    padding: 10px 30px;
+}
+
+#enviar:hover{
+    background-color: #0022AA;;
+}
+
+/* EFECTO TRUCKKKK */
+.imagen-truck:hover i {
+    transform: rotate(-90deg);
+    transition: width 2s, height 2s, transform 2s;
+}
+
+@media (min-width:768px) {
+    .main-header-top-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .formulario {
+        width: 60%;
+    }
+
+    .copy-header {
+        max-width: 350px;
+        text-align: right;
+        justify-content: center;
+    }
+
+    .hamburguer-button {
+        display: none;
+    }
+
+    .main-nav-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-nav-bar ul {
+        display: flex;
+    }
+
+    .main-nav-bar li {
+        margin: 5px;
+    }
+
+    .product {
+        width: 45%;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .product p {
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    
+
+    .main-header-top-bar,
+    .main-nav-bar {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .main-header-top-bar {
+        align-items: center;
+    }
+
+    .copy-header {
+        margin: 0;
+        max-width: none;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .main-nav-bar li {
+        margin: 0 10px;
+        margin-top: 30px;
+    }
+
+    .main-nav-bar a {
+        font-size: 19px;
+    }
+
+    .product {
+        width: 22%;
+    }
+
+    .footer-tal {
+        display: inline-flex;
+    }
+
+    .footer-datos:hover i{
+        color: #0022AA;
+    }
+}
